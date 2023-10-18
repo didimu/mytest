@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import { headerNav } from "../constants";
+{/* constants 로 보내줌
 const headerNav = [
     {
         title: "intro",
@@ -22,6 +23,7 @@ const headerNav = [
         url: "#contact"
     }
 ];
+*/}
 
 const Header = () => {
     const [show, setShow] = useState(false);
